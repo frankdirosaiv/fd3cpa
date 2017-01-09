@@ -648,27 +648,6 @@ header {
   @media only screen and (min-width: 1070px) {
     header {
       height: 450px; } }
-/*
-  header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  header li {
-    float: left;
-  }
-  header li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  header li a:hover {
-    background-color: #111;
-  }*/
 
   header nav {
     float: right;
@@ -712,7 +691,7 @@ header {
       display: inline-block;
       padding: 0.4em 0.5em;
       border: rgba(0, 0, 0, 1.0) solid 10px;
-      background-color: rgba(63,127,191,0.7); }
+      background-color: rgba(63,127,191,0.3); }
       @media only screen and (min-width: 220px) {
         header h1 span {
           font-family: "Times New Roman", Times, serif;
