@@ -648,7 +648,7 @@ header {
   @media only screen and (min-width: 1070px) {
     header {
       height: 450px; } }
-
+/*
   header ul {
     list-style-type: none;
     margin: 0;
@@ -668,7 +668,7 @@ header {
   }
   header li a:hover {
     background-color: #111;
-  }
+  }*/
 
   header nav {
     float: right;
