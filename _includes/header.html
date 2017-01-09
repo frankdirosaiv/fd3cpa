@@ -11,11 +11,16 @@
   }
   header li a {
     display: block;
-    color: white;
-    text-align: center;
+    color: white; 
+  	text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-  }
+    text-decoration: none;}
+      @media only screen and (min-width: 220px) {
+        header li a {
+          display: none; } }
+      @media only screen and (min-width: 650px) {
+        header li a {
+          display: inline-block; } }
   header li a:hover {
     background-color: #111;
   }
