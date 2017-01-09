@@ -648,12 +648,34 @@ header {
   @media only screen and (min-width: 1070px) {
     header {
       height: 450px; } }
+
+  header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  header li {
+    float: left;
+  }
+  header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  header li a:hover {
+    background-color: #111;
+  }
+
   header nav {
     float: right;
     margin: 30px 30px 30px; }
     header nav a {
       margin-left: 20px;
-      color: rgba(0, 0, 0, 0.5); }
+      color: rgba(0, 0, 0, 1.0); }
       @media only screen and (min-width: 220px) {
         header nav a {
           display: none; } }
@@ -662,37 +684,40 @@ header {
           display: inline-block; } }
       header nav a:hover {
         color: black; }
+
   header h1 {
     text-align: center;
-    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1.0);
     text-transform: uppercase;
     letter-spacing: 0.05cm;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     clear: both; }
     @media only screen and (min-width: 220px) {
       header h1 {
         padding-top: 20px;
-        font-size: 32px;
+        font-size: 20px;
         font-weight: 350; } }
     @media only screen and (min-width: 650px) {
       header h1 {
-        padding-top: 10px;
-        font-size: 20px;
+        padding-top: 70px;
+        font-size: 10px;
         font-weight: 300; } }
     @media only screen and (min-width: 1070px) {
       header h1 {
-        padding-top: 50px;
-        font-size: 55px;
+        padding-top: 150px;
+        font-size: 20px;
         font-weight: 500; } }
     header h1 span {
       display: inline-block;
-      padding: 0.2em 0.5em;
-      border: rgba(0, 0, 0, 0.5) solid 10px; }
+      padding: 0.4em 0.5em;
+      border: rgba(0, 0, 0, 1.0) solid 10px;
+      background-color: rgba(63,127,191,0.7); }
       @media only screen and (min-width: 220px) {
         header h1 span {
           font-family: "Times New Roman", Times, serif;
           font-style: italic;
-          padding: 0.2em 0.5em; } }
+          padding: 0.5em 0.5em; } }
       @media only screen and (min-width: 650px) {
         header h1 span {
           font-family: "Times New Roman", Times, serif;
@@ -702,11 +727,11 @@ header {
         header h1 span {
           font-family: "Times New Roman", Times, serif;
           font-style: italic;
-          padding: 0.2em 0.5em; } }
+          padding: 0.5em 0.5em; } }
   header .kicker {
     text-align: center;
     line-height: 1;
-    color: rgba(0, 0, 0, 0.5); }
+    color: rgba(0, 0, 0, 1.0); }
 
 footer {
   background: url(../img/galway3.jpg) center center;
@@ -757,12 +782,15 @@ footer {
       height: 200px;
       width: 200px;
       border-radius: 50%;
-      -webkit-box-ordinal-group: 3;
-      box-ordinal-group: 3;
-      -webkit-order: 3;
-      -moz-order: 3;
-      order: 3;
-      -ms-flex-order: 3; }
+      position: relative;
+      left: 40%;
+
+      -webkit-box-ordinal-group: 1;
+      box-ordinal-group: 1;
+      -webkit-order: 1;
+      -moz-order: 1;
+      order: 1;
+      -ms-flex-order: 1; }
       .about-lock .flip-container:hover .flipper, .about-lock .flip-container.hover .flipper {
         -webkit-transform: rotateY(180deg);
                 transform: rotateY(180deg); }
