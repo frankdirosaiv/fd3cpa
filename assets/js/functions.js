@@ -2,7 +2,7 @@ $(function() {
 	smoothScroll(300);
 
 	$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
-	$(".biglink").fitText(1.5);
+	//$(".biglink").fitText(1.5);
 
 	$('textarea').autosize();
 });
