@@ -946,6 +946,13 @@ footer {
   font-size: 42px;
   font-weight: 300; }
 
+ @media only screen and (min-width: 220px) {
+   .biglink {
+     font-size: 20px } }
+ @media only screen and (min-width: 650px) {
+   .biglink {
+     font-size: 30px } }
+
 .biglink:hover {
   -webkit-transform: scale(1.02);
   transform: scale(1.02); }
