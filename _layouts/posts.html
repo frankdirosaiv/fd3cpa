@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include header_small.html %}
+
+
+
+<h2 id="Blog"> Tools</h2>
+<hr class="bar-blog"> </hr>
+  {% for post in site.categories['blog'] limit:18 %}
+    <div class="post-header">
+      <a href="{{post.link}}"><h3 class="post-title">{{ post.title }}</h3></a>
+    </div>
+    <div class="post-header">
+      <p class="post-meta">{{post.description}}</p>
+    </div>
+
+  {% endfor %}
+  <hr class="bar-blog"> </hr>
+<div class="temp-posts">
+
+</div>
